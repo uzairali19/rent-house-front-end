@@ -53,8 +53,8 @@
 
 👤 ***Isabella***
 - Location: Nairobi, Kenya
-- Github: [@Isabellanamutenda]()
-- Linkedin: [Isabellanamutenda]()
+- Github: [@Isabellanamutenda](https://github.com/Isabellanamutenda)
+- Linkedin: [Isabellanamutenda](https://www.linkedin.com/in/isabella-namutenda/)
 
 
 ## 🤝 Contributing
