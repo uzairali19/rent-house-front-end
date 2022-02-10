@@ -38,7 +38,7 @@
 
 👤 ***Kossi Fioklou***
 - Location:Lome, Togo
-- GitHub: [@Kossi-stack]()
+- GitHub: [@Kossi-stack](https://github.com/kossi-stack)
 - LinkedIn: [LinkedIn]()
 
 👤***Elmar***
