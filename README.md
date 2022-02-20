@@ -29,12 +29,12 @@
 ## Authors
 
 👤***Uzair***
-- Location: Islamabad, Pakistan
+- Location: Islamabad, Pakistan [go to map](https://goo.gl/maps/skwxdqsUWpUbM8TdA)
 - GitHub: [uzairali19](https://github.com/uzairali19)
 - LinkedIn: [uzairali19](https://www.linkedin.com/in/uzairali19)
 
-👤 ***Kossi Fioklou***
-- Location: Lome, Togo
+👤 ***Kossi***
+- Location: Lome, Togo [go to map](https://goo.gl/maps/pBEtoJqtjZbu8xPTA)
 - GitHub: [@Kossi-stack](https://github.com/kossi-stack)
 - LinkedIn: [@Kossi-stack](https://www.linkedin.com/in/kossi-stack/)
 
@@ -44,12 +44,12 @@
 - LinkedIn: [elmar.abdulkarimov](https://www.linkedin.com/in/elmar-abdulkarimov/)
 
 👤***Rustam***
-- Location: Tashkent, Uzbekistan
+- Location: Tashkent, Uzbekistan [go to map](https://goo.gl/maps/YmqnUfndA6dtPEmaA)
 - GitHub: [Rustamxon7](https://github.com/Rustamxon7)
 - LinkedIn: [Rustamxon7]()
 
 👤 ***Isabella***
-- Location: Nairobi, Kenya
+- Location: Nairobi, Kenya [go to map](https://goo.gl/maps/2xyWFeys9k5jn1h56)
 - Github: [@Isabellanamutenda](https://github.com/Isabellanamutenda)
 - Linkedin: [Isabellanamutenda](https://www.linkedin.com/in/isabella-namutenda/)
 
