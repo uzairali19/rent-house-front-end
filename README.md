@@ -1,6 +1,8 @@
 # The `House rent app` on React JS
 ## The Front-end for Final Capstone Project
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122651.8324233945!2d45.51120852058611!3d40.15420657249731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307cd91aa21ddf%3A0xe6c9526b3e83cd08!2z0JDQt9C10YDQsdCw0LnQtNC20LDQvQ!5e0!3m2!1sru!2s!4v1645366709124!5m2!1sru!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
 - This app is a Front-end side of final capstone project. You can find the Back-end app [here](https://github.com/Kossi-stack/rent-house-back-end). 
 - Direct link to [Kanban board](https://github.com/Kossi-stack/rent-house-back-end/projects/1) for whole capstone project
 
