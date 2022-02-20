@@ -28,30 +28,14 @@
 
 ## Authors
 
-👤***Uzair***
-- Location: Islamabad, Pakistan [go to map](https://goo.gl/maps/skwxdqsUWpUbM8TdA)
-- GitHub: [uzairali19](https://github.com/uzairali19)
-- LinkedIn: [uzairali19](https://www.linkedin.com/in/uzairali19)
+| Elmar | Ali | Kossi | Rustam | Isabella |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Baku, Azerbaijan  | Islamabad, Pakistan  | Lome, Togo| Tashkent, Uzbekistan | Nairobi, Kenya |
+| [go to map](https://goo.gl/maps/JmWDm2THR5WtUZj87)| [go to map](https://goo.gl/maps/skwxdqsUWpUbM8TdA)  | [go to map](https://goo.gl/maps/pBEtoJqtjZbu8xPTA) | [go to map](https://goo.gl/maps/YmqnUfndA6dtPEmaA) | [go to map](https://goo.gl/maps/2xyWFeys9k5jn1h56)
+| age 34  | age 30  | age 30 | age 30 | age 30|
+| [@elmar8287](https://github.com/elmar8287) | [@uzairali19](https://github.com/uzairali19) | [@Kossi-stack](https://github.com/kossi-stack) | [@Rustamxon7](https://github.com/Rustamxon7) |  [@Isabellanamutenda](https://github.com/Isabellanamutenda)
+| ![elmar](./assets/images/elmar.png)  | ![ali](./assets/images/ali.png)  | ![kossi](./assets/images/kossi.png)  | ![rustam](./assets/images/rustam.png)  |  ![isabella](./assets/images/isabella.png)  |
 
-👤 ***Kossi***
-- Location: Lome, Togo [go to map](https://goo.gl/maps/pBEtoJqtjZbu8xPTA)
-- GitHub: [@Kossi-stack](https://github.com/kossi-stack)
-- LinkedIn: [@Kossi-stack](https://www.linkedin.com/in/kossi-stack/)
-
-👤***Elmar***
-- Location: Baku, Azerbaijan [go to map](https://goo.gl/maps/JmWDm2THR5WtUZj87)
-- GitHub: [elmar8287](https://github.com/elmar8287)
-- LinkedIn: [elmar.abdulkarimov](https://www.linkedin.com/in/elmar-abdulkarimov/)
-
-👤***Rustam***
-- Location: Tashkent, Uzbekistan [go to map](https://goo.gl/maps/YmqnUfndA6dtPEmaA)
-- GitHub: [Rustamxon7](https://github.com/Rustamxon7)
-- LinkedIn: [Rustamxon7]()
-
-👤 ***Isabella***
-- Location: Nairobi, Kenya [go to map](https://goo.gl/maps/2xyWFeys9k5jn1h56)
-- Github: [@Isabellanamutenda](https://github.com/Isabellanamutenda)
-- Linkedin: [Isabellanamutenda](https://www.linkedin.com/in/isabella-namutenda/)
 
 
 
