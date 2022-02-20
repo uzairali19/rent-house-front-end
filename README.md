@@ -4,7 +4,7 @@
 - This app is a Front-end side of final capstone project. You can find the Back-end app [here](https://github.com/Kossi-stack/rent-house-back-end). 
 - Direct link to [Kanban board](https://github.com/Kossi-stack/rent-house-back-end/projects/1) for whole capstone project
 
-> Description: .... pending
+> This is a web app where users get to reserve a house. Also, users can add a house to a favorite list. There is the possibility to add and delete houses for registered users.
 
 ### Build with:
 
@@ -25,21 +25,18 @@
 - run `npm install` to install all dependencies
 - run `npm start` to start the app
 
-## Run tests
-
-- ....
 
 ## Authors
 
 👤***Uzair***
-- Location: 
-- GitHub: []()
-- LinkedIn: []()
+- Location: Islamabad, Pakistan
+- GitHub: [uzairali19](https://github.com/uzairali19)
+- LinkedIn: [uzairali19]((https://www.linkedin.com/in/uzairali19)
 
 👤 ***Kossi Fioklou***
-- Location:Lome, Togo
+- Location: Lome, Togo
 - GitHub: [@Kossi-stack](https://github.com/kossi-stack)
-- LinkedIn: [@Kossi-stack]((https://www.linkedin.com/in/kossi-stack/)
+- LinkedIn: [@Kossi-stack](https://www.linkedin.com/in/kossi-stack/)
 
 👤***Elmar***
 - Location: Baku, Azerbaijan
@@ -47,9 +44,9 @@
 - LinkedIn: [elmar.abdulkarimov](https://www.linkedin.com/in/elmar-abdulkarimov/)
 
 👤***Rustam***
-- Location: 
-- GitHub: []()
-- LinkedIn: []()
+- Location: Tashkent, Uzbekistan
+- GitHub: [Rustamxon7](https://github.com/Rustamxon7)
+- LinkedIn: [Rustamxon7]()
 
 👤 ***Isabella***
 - Location: Nairobi, Kenya
