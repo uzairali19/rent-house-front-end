@@ -34,7 +34,7 @@
 | [go to map](https://goo.gl/maps/JmWDm2THR5WtUZj87)| [go to map](https://goo.gl/maps/skwxdqsUWpUbM8TdA)  | [go to map](https://goo.gl/maps/pBEtoJqtjZbu8xPTA) | [go to map](https://goo.gl/maps/YmqnUfndA6dtPEmaA) | [go to map](https://goo.gl/maps/2xyWFeys9k5jn1h56)
 | age 34  | age 30  | age 30 | age 30 | age 30|
 | [@elmar8287](https://github.com/elmar8287) | [@uzairali19](https://github.com/uzairali19) | [@Kossi-stack](https://github.com/kossi-stack) | [@Rustamxon7](https://github.com/Rustamxon7) |  [@Isabellanamutenda](https://github.com/Isabellanamutenda)
-| ![elmar](./assets/images/elmar.png)  | ![ali](./assets/images/ali.png)  | ![kossi](./assets/images/kossi.png)  | ![rustam](./assets/images/rustam.png)  |  ![isabella](./assets/images/isabella.png)  |
+| ![elmar](./public/elmar.png)  | ![ali](./assets/images/ali.png)  | ![kossi](./assets/images/kossi.png)  | ![rustam](./assets/images/rustam.png)  |  ![isabella](./assets/images/isabella.png)  |
 
 
 
