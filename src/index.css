@@ -1,29 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Yrsa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 
 #root {
-  display: flex;
-  flex-direction: column;
-}
-
-.auth-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95vh;
-  width: 95vw;
-}
-
-.font {
-  font-family: 'Yrsa', serif;
-  margin-top: 2rem;
-}
-
-.font-rale {
-  font-family: 'Raleway', sans-serif;
-}
-
-@media screen and (min-width: 768px) {
-  #root {
-    flex-direction: row;
-  }
+  width: 100%;
+  height: 100%;
 }

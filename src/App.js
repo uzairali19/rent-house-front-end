@@ -1,18 +1,22 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import DeleteListItems from './components/DeleteListItems';
-import Item from './components/Item';
-import Login from './components/Login';
+import "./App.css";
+import styled from "styled-components";
+// import { AccountBox } from "./components/accountBox";
+
+const AppContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<Item />} />
-        <Route path="/deleteList" element={<DeleteListItems />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </BrowserRouter>
+    <AppContainer>
+      <AccountBox />
+    </AppContainer>
   );
 }
+
 export default App;
