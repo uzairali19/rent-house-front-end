@@ -31,7 +31,7 @@
 👤***Uzair***
 - Location: Islamabad, Pakistan
 - GitHub: [uzairali19](https://github.com/uzairali19)
-- LinkedIn: [uzairali19]((https://www.linkedin.com/in/uzairali19)
+- LinkedIn: [uzairali19](https://www.linkedin.com/in/uzairali19)
 
 👤 ***Kossi Fioklou***
 - Location: Lome, Togo
@@ -39,7 +39,7 @@
 - LinkedIn: [@Kossi-stack](https://www.linkedin.com/in/kossi-stack/)
 
 👤***Elmar***
-- Location: Baku, Azerbaijan
+- Location: Baku, Azerbaijan [go to map](https://goo.gl/maps/JmWDm2THR5WtUZj87)
 - GitHub: [elmar8287](https://github.com/elmar8287)
 - LinkedIn: [elmar.abdulkarimov](https://www.linkedin.com/in/elmar-abdulkarimov/)
 
