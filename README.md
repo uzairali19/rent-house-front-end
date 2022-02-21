@@ -33,7 +33,7 @@
 | Baku, Azerbaijan  | Islamabad, Pakistan  | Lome, Togo| Tashkent, Uzbekistan | Nairobi, Kenya |
 | [go to map](https://goo.gl/maps/JmWDm2THR5WtUZj87)| [go to map](https://goo.gl/maps/skwxdqsUWpUbM8TdA)  | [go to map](https://goo.gl/maps/pBEtoJqtjZbu8xPTA) | [go to map](https://goo.gl/maps/YmqnUfndA6dtPEmaA) | [go to map](https://goo.gl/maps/2xyWFeys9k5jn1h56)
 | [@elmar8287](https://github.com/elmar8287) | [@uzairali19](https://github.com/uzairali19) | [@Kossi-stack](https://github.com/kossi-stack) | [@Rustamxon7](https://github.com/Rustamxon7) |  [@Isabellanamutenda](https://github.com/Isabellanamutenda)
-| ![elmar](./public/elmar.png)  | ![ali](./public/ali.png)  | ![kossi](./public/kossi.png)  | ![rustam](./public/rustam.png)  |  ![isabella](./public/isabella.png)  |
+| ![elmar](./public/avatars/elmar.png)  | ![ali](./public/avatars/ali.png)  | ![kossi](./public/avatars/kossi.png)  | ![rustam](./public/avatars/rustam.png)  |  ![isabella](./public/avatars/isabella.png)  |
 
 
 
