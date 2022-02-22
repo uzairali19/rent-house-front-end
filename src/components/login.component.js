@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React, { Component } from 'eact';
+import React, { Component } from 'react';
 
 export default class Login extends Component {
   render() {
