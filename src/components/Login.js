@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { loginUser } from '../redux/actions/authActions';
 
 const Login = () => {
   const [user, setUser] = useState({
     email: '',
     password: ''
   });
+
+  const dispatch = useDispatch();
 
   const ids = {
     email: 'email',
@@ -28,6 +32,14 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(user);
+
+    const loginUse = {
+      email: user.email,
+      password: user.password
+    };
+
+    dispatch(loginUser(loginUse));
+
     setUser({ email: '', password: '' });
   };
 

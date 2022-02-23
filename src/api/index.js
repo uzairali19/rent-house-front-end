@@ -5,14 +5,31 @@ export const signUp = async (user) => {
     user
   });
 
+  const data = JSON.parse(localStorage.getItem('token'));
+  let localState;
+  if (data === null) {
+    localState = [];
+  } else {
+    localState = data;
+  }
+
   const authToken = response.headers.authorization;
   const currentUser = response.data;
-  localStorage.setItem('token', authToken);
+  localState.push({ authToken, user: currentUser });
+  localStorage.setItem('token', JSON.stringify(localState));
 
   return currentUser;
 };
 
 export const loginUser = async (user) => {
+  const data = JSON.parse(localStorage.getItem('token'));
+  let token = '';
+  data.forEach((item) => {
+    if (item.user.email === user.email) {
+      token = item.authToken;
+    }
+  });
+
   const response = await axios.post(
     'http://localhost:3000/users/signin',
     {
@@ -20,14 +37,22 @@ export const loginUser = async (user) => {
     },
     {
       headers: {
-        Authorization: `${localStorage.getItem('token')}`
+        Authorization: `${token}`
       }
     }
   );
-
   const authToken = response.headers.authorization;
   const currentUser = response.data;
-  localStorage.setItem('token', authToken);
+
+  data.forEach((item) => {
+    if (item.user.email === user.email) {
+      item.authToken = authToken;
+    }
+  });
+
+  const localState = data;
+
+  localStorage.setItem('token', JSON.stringify(localState));
 
   return currentUser;
 };

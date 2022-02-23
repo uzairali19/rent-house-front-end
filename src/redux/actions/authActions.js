@@ -13,6 +13,7 @@ export const signUp = (user) => async (dispatch) => {
 
 export const loginUser = (user) => async (dispatch) => {
   const data = await api.loginUser(user);
+  console.log(data);
   try {
     const action = { type: LOGIN_USER, payload: data };
     dispatch(action);
