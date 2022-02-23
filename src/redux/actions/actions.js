@@ -24,7 +24,7 @@ export const loginUser = (user) => async (dispatch) => {
 export const logoutUser = () => async (dispatch) => {
   await api.logoutUser();
   try {
-    const action = { type: LOGOUT_USER, payload: {} };
+    const action = { type: LOGOUT_USER };
     dispatch(action);
   } catch (error) {
     console.log(error);
