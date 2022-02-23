@@ -6,8 +6,9 @@ import {
   BrowserRouter as Router, Switch, Route, Link,
 } from 'react-router-dom';
 
-import Login from './components/login.component';
-import SignUp from './components/signup.component';
+import Login from './components/Auth/login.component';
+import SignUp from './components/Auth/signup.component';
+import Home from './components/Home/Home';
 
 function App() {
   return (<Router>
@@ -37,6 +38,7 @@ function App() {
           </Switch>
         </div>
       </div>
+      <Home />
     </div></Router>
   );
 }
