@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { signUp } from '../redux/actions/authActions';
 
 const SignUp = () => {
   const [newUser, setNewUser] = useState({
@@ -8,6 +10,8 @@ const SignUp = () => {
     password: '',
     passwordConfirmation: ''
   });
+
+  const dispatch = useDispatch();
 
   const ids = {
     name: 'name',
@@ -37,7 +41,13 @@ const SignUp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(newUser);
+    const confirmUser = {
+      name: newUser.name,
+      email: newUser.email,
+      password: newUser.password,
+      password_confirmation: newUser.passwordConfirmation
+    };
+    dispatch(signUp(confirmUser));
     setNewUser({ name: '', email: '', password: '', passwordConfirmation: '' });
   };
 
