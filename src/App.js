@@ -9,6 +9,7 @@ import {
 import Login from './components/Auth/login.component';
 import SignUp from './components/Auth/signup.component';
 import Home from './components/Home/Home';
+import HouseDetail from './components/Home/House-detail';
 
 function App() {
   return (<Router>
@@ -36,6 +37,7 @@ function App() {
             <Route path="/sign-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
             <Route path="/home" component={Home} />
+            <Route path="/house-detail" component={HouseDetail} />
           </Switch>
         </div>
       </div>
