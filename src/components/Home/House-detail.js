@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
 
@@ -8,21 +8,21 @@ const HouseDetail = () => {
   return (
     <div>
         <div className="item">
-            <img src={houseLogo} alt="House view" />
-            <h5>House #1</h5>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <Link to={"/house-detail"}>
-            <button type="button">Reserv</button>
+          <img src={houseLogo} alt="House view" />
+          <h5>House #1</h5>
+            <p>Some quick example text to build on the card title and ...</p>
+            <Link to={'/reserve'}>
+               <button type="button">Reservation</button>
             </Link>
-            <Link to={"/house-detail"}>
-            <button type="button">Add to fovorite</button>
+            <Link to={'/favorite'}>
+              <button type="button">Add to favorite</button>
             </Link>
-            <Link to={"/house-detail"}>
-            <button type="button">Close</button>
+            <Link to={'/home'}>
+              <button type="button">Close</button>
             </Link>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default HouseDetail;
