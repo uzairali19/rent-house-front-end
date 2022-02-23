@@ -1,34 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
-  const hello = 'Hello World';
-  console.log(hello);
+  const [user, setUser] = useState({
+    email: '',
+    password: ''
+  });
+
+  const ids = {
+    email: 'email',
+    password: 'password'
+  };
+
+  const handleChange = (e) => {
+    switch (e.target.id) {
+      case ids.email:
+        setUser({ ...user, email: e.target.value });
+        break;
+      case ids.password:
+        setUser({ ...user, password: e.target.value });
+        break;
+      default:
+        break;
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(user);
+    setUser({ email: '', password: '' });
+  };
+
   return (
     <div className="auth-wrapper">
       <div className="auth-inner">
         <form>
           <h3>Sign In</h3>
           <div className="form-group">
-            <label htmlFor="email1">Email address</label>
+            <label>Email address</label>
             <input
-              id="email1"
+              id={ids.email}
               type="email"
               className="form-control"
               placeholder="Enter email"
+              value={user.email}
+              onChange={handleChange}
             />
           </div>
-
           <div className="form-group">
-            <label htmlFor="password1">Password</label>
+            <label>Password</label>
             <input
-              id="password1"
+              id={ids.password}
               type="password"
               className="form-control"
               placeholder="Enter password"
+              value={user.password}
+              onChange={handleChange}
             />
           </div>
-
           <div className="form-group">
             <div className="custom-control custom-checkbox">
               <input
@@ -42,7 +71,11 @@ const Login = () => {
             </div>
           </div>
 
-          <button type="submit" className="btn btn-primary btn-block">
+          <button
+            type="submit"
+            className="btn btn-primary btn-block"
+            onClick={handleSubmit}
+          >
             Submit
           </button>
           <p className="forgot-password text-right">
