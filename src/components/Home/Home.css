@@ -1,10 +1,16 @@
 .item {
   border: solid black 2px;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  /* background-color: #fff; */
 }
 
 .item img {
-  height: 50px;
+  height: 100px;
 }
+
+.item1 {
+  float: right;
+}
+

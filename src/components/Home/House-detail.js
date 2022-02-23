@@ -1,15 +1,16 @@
 import React from 'react';
 import './Home.css';
+import './House-detail.css';
 import { Link } from 'react-router-dom';
 
-const houseLogo = require('./house-view.png');
+const houseLogo = require('./download.jpeg');
 
 const HouseDetail = () => (
   <div>
-    <div className="item">
+    <div className="house">
       <img src={houseLogo} alt="House view" />
       <h5>House #1</h5>
-      <p>Some quick example text to build on the card title and ...</p>
+      <p>Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available. Call John 336-554</p>
       <Link to="/reserve">
         <button type="button">Reservation</button>
       </Link>
