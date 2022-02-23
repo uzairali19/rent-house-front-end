@@ -1,117 +1,45 @@
-import React, { useEffect, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { loginUser, logoutUser, signUp } from './redux/actions/actions';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
+import Login from './components/login.component';
+import SignUp from './components/signup.component';
 
 function App() {
-  const [user, setUser] = useState({
-    email: '',
-    password: ''
-  });
-  const [regUser, setRegUser] = useState({
-    name: '',
-    email: '',
-    password: '',
-    passwordConfirmation: ''
-  });
-  const dispatch = useDispatch();
-
-  const signIn = () => {
-    if (user.email === '' || user.password === '') {
-      alert('Please enter email and password');
-      return;
-    }
-    const userData = {
-      email: user.email,
-      password: user.password
-    };
-    dispatch(loginUser(userData));
-  };
-
-  const signOut = () => {
-    dispatch(logoutUser());
-  };
-
-  const register = () => {
-    const userData = {
-      name: regUser.name,
-      email: regUser.email,
-      password: regUser.password,
-      password_confirmation: regUser.passwordConfirmation
-    };
-    dispatch(signUp(userData));
-  };
-
   return (
-    <div className="App">
-      <div>
-        <h1>Register User</h1>
-        <input
-          type="text"
-          onChange={(e) =>
-            setRegUser({
-              name: e.target.value,
-              email: regUser.email,
-              password: regUser.password,
-              passwordConfirmation: regUser.passwordConfirmation
-            })
-          }
-        />
-        <input
-          type="email"
-          onChange={(e) =>
-            setRegUser({
-              name: regUser.name,
-              email: e.target.value,
-              password: regUser.password,
-              passwordConfirmation: regUser.passwordConfirmation
-            })
-          }
-        />
-        <input
-          type="password"
-          onChange={(e) =>
-            setRegUser({
-              name: regUser.name,
-              email: regUser.email,
-              password: e.target.value,
-              passwordConfirmation: regUser.passwordConfirmation
-            })
-          }
-        />
-        <input
-          type="password"
-          onChange={(e) =>
-            setRegUser({
-              name: regUser.name,
-              email: regUser.email,
-              password: regUser.password,
-              passwordConfirmation: e.target.value
-            })
-          }
-        />
-        <button type="submit" onClick={register}>
-          Sign Up
-        </button>
+    <Router>
+      <div className="App">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+          <div className="container">
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  <Link className="nav-link" to={'/sign-in'}>
+                    Login
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={'/sign-up'}>
+                    Sign up
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div className="auth-wrapper">
+          <div className="auth-inner">
+            <Switch>
+              <Route exact path="/" component={Login} />
+              <Route path="/sign-in" component={Login} />
+              <Route path="/sign-up" component={SignUp} />
+            </Switch>
+          </div>
+        </div>
       </div>
-      <input
-        type="email"
-        onChange={(e) =>
-          setUser({ email: e.target.value, password: user.password })
-        }
-      />
-      <input
-        type="password"
-        onChange={(e) =>
-          setUser({ email: user.email, password: e.target.password })
-        }
-      />
-      <button type="submit" onClick={signIn}>
-        Submit
-      </button>
-      <button type="submit" onClick={signOut}>
-        Logout
-      </button>
-    </div>
+    </Router>
   );
 }
 
