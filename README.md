@@ -4,7 +4,7 @@
 - This app is a Front-end side of final capstone project. You can find the Back-end app [here](https://github.com/Kossi-stack/rent-house-back-end). 
 - Direct link to [Kanban board](https://github.com/Kossi-stack/rent-house-back-end/projects/1) for whole capstone project
 
-> Description: .... pending
+> This is a web app where users get to reserve a house. Also, users can add a house to a favorite list. There is the possibility to add and delete houses for registered users.
 
 ### Build with:
 
@@ -25,36 +25,17 @@
 - run `npm install` to install all dependencies
 - run `npm start` to start the app
 
-## Run tests
-
-- ....
 
 ## Authors
 
-👤***Uzair***
-- Location: 
-- GitHub: []()
-- LinkedIn: []()
+| Elmar                                              | Ali                                                | Kossi                                              | Rustam                                             | Isabella                                                   |
+| -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
+| Baku, Azerbaijan                                   | Islamabad, Pakistan                                | Lome, Togo                                         | Tashkent, Uzbekistan                               | Nairobi, Kenya                                             |
+| [go to map](https://goo.gl/maps/JmWDm2THR5WtUZj87) | [go to map](https://goo.gl/maps/skwxdqsUWpUbM8TdA) | [go to map](https://goo.gl/maps/pBEtoJqtjZbu8xPTA) | [go to map](https://goo.gl/maps/YmqnUfndA6dtPEmaA) | [go to map](https://goo.gl/maps/2xyWFeys9k5jn1h56)         |
+| [@elmar8287](https://github.com/elmar8287)         | [@uzairali19](https://github.com/uzairali19)       | [@Kossi-stack](https://github.com/kossi-stack)     | [@Rustamxon7](https://github.com/Rustamxon7)       | [@Isabellanamutenda](https://github.com/Isabellanamutenda) |
+| ![elmar](./public/elmar.png)                       | ![ali](./public/ali.png)                           | ![kossi](./public/kossi.png)                       | ![rustam](./public/rustam.png)                     | ![isabella](./public/isabella.png)                         |
 
-👤 ***Kossi Fioklou***
-- Location:Lome, Togo
-- GitHub: [@Kossi-stack](https://github.com/kossi-stack)
-- LinkedIn: [@Kossi-stack]((https://www.linkedin.com/in/kossi-stack/)
 
-👤***Elmar***
-- Location: Baku, Azerbaijan
-- GitHub: [elmar8287](https://github.com/elmar8287)
-- LinkedIn: [elmar.abdulkarimov](https://www.linkedin.com/in/elmar-abdulkarimov/)
-
-👤***Rustam***
-- Location: 
-- GitHub: []()
-- LinkedIn: []()
-
-👤 ***Isabella***
-- Location: Nairobi, Kenya
-- Github: [@Isabellanamutenda](https://github.com/Isabellanamutenda)
-- Linkedin: [Isabellanamutenda](https://www.linkedin.com/in/isabella-namutenda/)
 
 
 
