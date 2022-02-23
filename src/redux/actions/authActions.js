@@ -13,7 +13,6 @@ export const signUp = (user) => async (dispatch) => {
 
 export const loginUser = (user) => async (dispatch) => {
   const data = await api.loginUser(user);
-  console.log(data);
   try {
     const action = { type: LOGIN_USER, payload: data };
     dispatch(action);
@@ -22,10 +21,11 @@ export const loginUser = (user) => async (dispatch) => {
   }
 };
 
-export const logoutUser = () => async (dispatch) => {
+export const logoutUser = (user) => async (dispatch) => {
   await api.logoutUser();
+  user.loggedIn = false;
   try {
-    const action = { type: LOGOUT_USER };
+    const action = { type: LOGOUT_USER, payload: user };
     dispatch(action);
   } catch (error) {
     console.log(error);

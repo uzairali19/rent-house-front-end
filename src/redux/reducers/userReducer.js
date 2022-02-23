@@ -9,7 +9,7 @@ const userReducer = (state = initialState, action) => {
     case REGISTER_USER:
       return { user: action.payload, loggedIn: false };
     case LOGOUT_USER:
-      return null;
+      return action.payload;
     default:
       return state;
   }

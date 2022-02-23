@@ -15,7 +15,7 @@ export const signUp = async (user) => {
 
   const authToken = response.headers.authorization;
   const currentUser = response.data;
-  localState.push({ authToken, user: currentUser });
+  localState.push({ authToken, user: currentUser, loggedIn: false });
   localStorage.setItem('token', JSON.stringify(localState));
 
   return currentUser;
@@ -47,17 +47,16 @@ export const loginUser = async (user) => {
   data.forEach((item) => {
     if (item.user.email === user.email) {
       item.authToken = authToken;
+      item.loggedIn = true;
     }
   });
 
   const localState = data;
-
   localStorage.setItem('token', JSON.stringify(localState));
 
   return currentUser;
 };
 
 export const logoutUser = async () => {
-  const token = localStorage.getItem('token');
-  await axios.delete('/users/signout');
+  await axios.delete('http://localhost:3000/users/signout');
 };
