@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
 .main h1 {
   color: #fff;
   font-size: 7vw;
@@ -9,23 +14,20 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .main h2 {
-  color: #003300;
+  color: #030;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 2rem;
   text-align: center;
 }
 
-h1 {
-  font-weight: 700;
-  margin-bottom: 2rem;
-}
-.item {
+/* .item {
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
-}
+} */
 
 .button {
   border-radius: 4px;
@@ -48,7 +50,7 @@ h1 {
   transition: 0.5s;
 }
 
-.button span:after {
+.button span::after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -57,11 +59,7 @@ h1 {
   transition: 0.5s;
 }
 
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
+.button:hover span::after {
   opacity: 1;
   right: 0;
 }
@@ -70,16 +68,17 @@ h1 {
   padding-right: 15px;
 }
 
-.item{
+.item {
   /* height: auto; */
+
   /* max-width: 50%; */
- align-items: center;
- border-radius: 5px;
- box-shadow: 0 1px 8px #e0e0e0;
- display: flex;
- flex-direction: column;
- gap: 0;
- justify-content: center;
- margin: 0.5rem;
- padding: 0.5rem;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
