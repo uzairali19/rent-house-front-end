@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -8,21 +8,21 @@ import SignUp from './components/Auth/signup.component';
 import Home from './components/Home/Home';
 import HouseDetail from './components/Home/House-detail';
 
-function App() {
-  return (
-    <Router>
+const App = () => (
+  <BrowserRouter>
+    <Routes>
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-in'}>
+                  <Link className="nav-link" to="/sign-in">
                     Login
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-up'}>
+                  <Link className="nav-link" to="/sign-up">
                     Sign up
                   </Link>
                 </li>
@@ -30,31 +30,18 @@ function App() {
             </div>
           </div>
         </nav>
-
-<<<<<<< HEAD
-      <div className="auth-wrapper">
-        <div className="auth-inner">
-          <Switch>
-            <Route exact path='/' component={Login} />
-            <Route path="/sign-in" component={Login} />
-            <Route path="/sign-up" component={SignUp} />
-            <Route path="/home" component={Home} />
-            <Route path="/house-detail" component={HouseDetail} />
-          </Switch>
-=======
         <div className="auth-wrapper">
           <div className="auth-inner">
-            <Switch>
-              <Route exact path="/" component={Login} />
-              <Route path="/sign-in" component={Login} />
-              <Route path="/sign-up" component={SignUp} />
-            </Switch>
+            <Route exact path="/" element={<Login />} />
+            <Route path="/sign-in" element={<Login />} />
+            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/house-detail" element={<HouseDetail />} />
           </div>
->>>>>>> dev
         </div>
       </div>
-    </Router>
-  );
-}
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;
