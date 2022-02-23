@@ -10,3 +10,13 @@ export const loginUser = (user) => async (dispatch) => {
     console.log(error.message);
   }
 };
+
+export const signUp = (user) => async (dispatch) => {
+  const data = await api.signUp(user);
+  try {
+    const action = { type: REGISTER_USER, payload: data };
+    dispatch(action);
+  } catch (err) {
+    console.log(err.message);
+  }
+};
