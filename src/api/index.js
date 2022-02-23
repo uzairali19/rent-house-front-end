@@ -31,3 +31,8 @@ export const loginUser = async (user) => {
 
   return currentUser;
 };
+
+export const logoutUser = async () => {
+  const token = localStorage.getItem('token');
+  await axios.delete('/users/signout');
+};

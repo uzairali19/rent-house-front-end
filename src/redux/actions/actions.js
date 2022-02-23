@@ -1,6 +1,16 @@
 import { LOGIN_USER, LOGOUT_USER, REGISTER_USER } from '../types';
 import * as api from '../../api/index';
 
+export const signUp = (user) => async (dispatch) => {
+  const data = await api.signUp(user);
+  try {
+    const action = { type: REGISTER_USER, payload: data };
+    dispatch(action);
+  } catch (err) {
+    console.log(err.message);
+  }
+};
+
 export const loginUser = (user) => async (dispatch) => {
   const data = await api.loginUser(user);
   try {
@@ -11,12 +21,12 @@ export const loginUser = (user) => async (dispatch) => {
   }
 };
 
-export const signUp = (user) => async (dispatch) => {
-  const data = await api.signUp(user);
+export const logoutUser = () => async (dispatch) => {
+  await api.logoutUser();
   try {
-    const action = { type: REGISTER_USER, payload: data };
+    const action = { type: LOGOUT_USER, payload: {} };
     dispatch(action);
-  } catch (err) {
-    console.log(err.message);
+  } catch (error) {
+    console.log(error);
   }
 };
