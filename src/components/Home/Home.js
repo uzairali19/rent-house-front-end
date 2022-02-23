@@ -1,23 +1,35 @@
 import React from "react";
 import './Home.css';
+import { Link } from 'react-router-dom';
+
+const houseLogo = require('./house-view.png');
 
 const Home = () => {
   return (
     <div>
         <div className="item">
+            <img src={houseLogo} alt="House view" />
             <h5>House #1</h5>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button type="button">View</button>
+            <p>Some short description or could be removed.</p>
+            <Link to={"/house-detail"}>
+            <button type="button">See house</button>
+            </Link>
         </div>
         <div className="item">
-            <h5>House #2</h5>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a>Go somewhere</a>
+            <img src={houseLogo} alt="House view" />
+            <h5>House #1</h5>
+            <p>Some short description or could be removed.</p>
+            <Link to={"/house-detail"}>
+            <button type="button">See house</button>
+            </Link>
         </div>
         <div className="item">
-            <h5>House #3</h5>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a>Go somewhere</a>
+            <img src={houseLogo} alt="House view" />
+            <h5>House #1</h5>
+            <p>Some short description or could be removed.</p>
+            <Link to={"/house-detail"}>
+            <button type="button">See house</button>
+            </Link>
         </div>
     </div>
   )

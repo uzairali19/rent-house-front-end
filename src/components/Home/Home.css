@@ -4,3 +4,7 @@
   padding: 5px;
   margin: 5px;
 }
+
+.item img {
+  height: 50px;
+}
