@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Nav from './components/navigation/Nav';
+import NavMobile from './components/navigation/NavMobile';
 
 import Login from './components/Auth/login.component';
 import SignUp from './components/Auth/signup.component';
