@@ -13,13 +13,13 @@ const App = () => (
   <BrowserRouter>
     <Header />
     <Routes>
-    <Route path="/" element={<Login />} />
-      <Route path="sign-in" element={<Login />} />
-      <Route path="sign-up" element={<SignUp />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/house-detail" element={<HouseDetail />} />
-  </Routes>
-</BrowserRouter>
+      <Route path="/" element={<Login />} />
+        <Route path="sign-in" element={<Login />} />
+        <Route path="sign-up" element={<SignUp />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/house-detail" element={<HouseDetail />} />
+    </Routes>
+  </BrowserRouter>
 );
 
 export default App;

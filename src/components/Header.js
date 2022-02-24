@@ -8,7 +8,7 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const handleLogout = () => {
-    dispatch(logoutUser(user));
+    // dispatch(logoutUser(user));
 
     const data = JSON.parse(localStorage.getItem('token'));
 
