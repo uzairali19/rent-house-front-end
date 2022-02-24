@@ -23,12 +23,6 @@ h1 {
   text-align: center;
 }
 
-/* .item {
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
-} */
-
 .button {
   border-radius: 4px;
   background-color: #f4511e;
@@ -69,9 +63,6 @@ h1 {
 }
 
 .item {
-  /* height: auto; */
-
-  /* max-width: 50%; */
   align-items: center;
   border-radius: 5px;
   box-shadow: 0 1px 8px #e0e0e0;
