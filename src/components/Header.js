@@ -56,14 +56,15 @@ const Header = () => {
             <Link to="/home">
               <li>Home </li>
             </Link>
-            <Link to="/reserve">
+            <Link to="/reservation">
               <li>Reservations</li>
             </Link>
-            <Link to="/reserve">
+            <Link to="/favorites">
               <li>My favorites</li>
             </Link>
-            <li>Add house</li>
-            <li>Delete house</li>
+            <Link to="/add">
+              <li>Add house</li>
+            </Link>
           </ul>
         </div>
       </nav>

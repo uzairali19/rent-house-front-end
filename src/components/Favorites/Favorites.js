@@ -1,12 +1,11 @@
 import React from 'react';
-// import './Home.css';
-import './House-detail.css';
 import { Link } from 'react-router-dom';
 import Header from '../Header';
+import './Favorites.css';
 
 const houseLogo = require('./cool.jpg');
 
-const HouseDetail = () => (
+const Favorites = () => (
   <div>
     <Header />
     <div className="house">
@@ -18,26 +17,11 @@ const HouseDetail = () => (
       </p>
       <Link to="/reserve">
         <button type="button" className="button">
-          Reservation
-        </button>
-      </Link>
-      <Link to="/favorite">
-        <button type="button" className="button">
-          Add to favorite
-        </button>
-      </Link>
-      <Link to="/#">
-        <button type="button" className="button">
-          Delete
-        </button>
-      </Link>
-      <Link to="/home">
-        <button type="button" className="button">
-          Close
+          Unlike
         </button>
       </Link>
     </div>
   </div>
 );
 
-export default HouseDetail;
+export default Favorites;
