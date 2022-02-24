@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import Header from '../Header';
 
 const houseLogo = require('./cool.jpg');
-const houseLogo2 = require('./warm.png');
-const houseLogo3 = require('./house.jpeg');
 
 const HouseDetail = () => (
   <div>

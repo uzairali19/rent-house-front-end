@@ -1,16 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header';
+import './Favorites.css';
+
+const houseLogo = require('./cool.jpg');
 
 const Favorites = () => (
   <div>
     <Header />
-    <div className="item">
-      <h5>House #1</h5>
-      <p>Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available</p>
-      <Link to="/house-detail">
+    <div className="house">
+      <img className="img1" src={houseLogo} alt="House view" />
+      <h5>House #</h5>
+      <p>
+        Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available. Call
+        John 336-554
+      </p>
+      <Link to="/reserve">
         <button type="button" className="button">
-          <span>See house</span>
+          Unlike
         </button>
       </Link>
     </div>
