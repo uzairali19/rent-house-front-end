@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  align-items: center;
+}
+
+li {
+  margin: 20px;
+  text-decoration: none;
+}
+
+ul a {
+  text-decoration: none;
+}

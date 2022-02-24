@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Login.css';
 
 const Login = () => {
   const [user, setUser] = useState({
@@ -34,7 +35,7 @@ const Login = () => {
   return (
     <div className="auth-wrapper">
       <div className="auth-inner">
-        <form>
+        <form className="form">
           <h3>Sign In</h3>
           <div className="form-group">
             <label>Email address</label>
