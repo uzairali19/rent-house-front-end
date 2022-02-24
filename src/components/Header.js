@@ -25,8 +25,15 @@ const Header = () => {
         </div>
         <div>
           <ul>
-            <li>Reservations</li>
-            <li>My favorites</li>
+            <Link to="/home">
+              <li>Home page</li>
+            </Link>
+            <Link to="/reserve">
+              <li>Reservations</li>
+            </Link>
+            <Link to="/reserve">
+              <li>My favorites</li>
+            </Link>
             <li>Add house</li>
             <li>Delete house</li>
           </ul>
