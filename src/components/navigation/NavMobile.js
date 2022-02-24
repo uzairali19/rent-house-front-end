@@ -29,7 +29,7 @@ const NavMobile = ({ routes }) => {
                   style={({ isActive }) => ({
                     display: 'block',
                     margin: '1rem 0',
-                    color: isActive ? '#fff' : '',
+                    color: isActive ? '#fff' : ''
                   })}
                   to={path}
                   onClick={toggleHamburger}
@@ -45,8 +45,8 @@ const NavMobile = ({ routes }) => {
         {`
           .nav-mobile {
             transform: ${hamburgerOpen
-          ? 'translateX(0%)'
-          : 'translateX(-100%)'};
+              ? 'translateX(0%)'
+              : 'translateX(-100%)'};
             width: 75%;
             height: 90vh;
             position: fixed;
@@ -85,9 +85,9 @@ NavMobile.propTypes = {
   routes: PropTypes.arrayOf(
     PropTypes.shape({
       path: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
+      name: PropTypes.string.isRequired
+    })
+  ).isRequired
 };
 
 export default NavMobile;

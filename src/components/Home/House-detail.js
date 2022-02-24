@@ -14,15 +14,24 @@ const HouseDetail = () => (
     <div className="house">
       <img className="img1" src={houseLogo} alt="House view" />
       <h5>House #</h5>
-      <p>Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available. Call John 336-554</p>
+      <p>
+        Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available. Call
+        John 336-554
+      </p>
       <Link to="/reserve">
-        <button type="button" className="button">Reservation</button>
+        <button type="button" className="button">
+          Reservation
+        </button>
       </Link>
       <Link to="/favorite">
-        <button type="button" className="button">Add to favorite</button>
+        <button type="button" className="button">
+          Add to favorite
+        </button>
       </Link>
       <Link to="/home">
-        <button type="button" className="button">Close</button>
+        <button type="button" className="button">
+          Close
+        </button>
       </Link>
     </div>
   </div>

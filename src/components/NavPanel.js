@@ -16,18 +16,18 @@ const NavPanel = () => {
     {
       id: 1,
       path: '/',
-      text: 'Home',
+      text: 'Home'
     },
     {
       id: 2,
       path: '/reservations',
-      text: 'My Reservations',
+      text: 'My Reservations'
     },
     {
       id: 3,
       path: '/create_room',
-      text: 'Create Room',
-    },
+      text: 'Create Room'
+    }
   ];
 
   return (
@@ -35,7 +35,10 @@ const NavPanel = () => {
       <nav>
         <ul>
           {links.map((link) => (
-            <li key={link.id} className="nav-link the-nav pt-0 pb-0 float-left text-black">
+            <li
+              key={link.id}
+              className="nav-link the-nav pt-0 pb-0 float-left text-black"
+            >
               <NavLink activeclassname="active" to={link.path} exact="true">
                 {link.text}
               </NavLink>

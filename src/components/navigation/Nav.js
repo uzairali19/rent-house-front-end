@@ -6,7 +6,7 @@ import {
   TiSocialFacebook,
   TiSocialGooglePlus,
   TiSocialVimeo,
-  TiSocialPinterest,
+  TiSocialPinterest
 } from 'react-icons/ti';
 import './Nav.css';
 
@@ -23,7 +23,7 @@ const Nav = ({ routes }) => (
               style={({ isActive }) => ({
                 display: 'block',
                 margin: '1rem 0',
-                color: isActive ? '#fff' : '',
+                color: isActive ? '#fff' : ''
               })}
               to={path}
             >
@@ -43,9 +43,7 @@ const Nav = ({ routes }) => (
       </div>
       <small>
         &copy;
-        {new Date().getFullYear()}
-        {' '}
-        Office Space, Inc.
+        {new Date().getFullYear()} Office Space, Inc.
       </small>
     </div>
   </nav>
@@ -55,9 +53,9 @@ Nav.propTypes = {
   routes: PropTypes.arrayOf(
     PropTypes.shape({
       path: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
+      name: PropTypes.string.isRequired
+    })
+  ).isRequired
 };
 
 export default Nav;
