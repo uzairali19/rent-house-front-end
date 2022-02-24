@@ -5,11 +5,11 @@ const initialState = [];
 const userReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOGIN_USER:
-      return action.payload;
+      return { user: action.payload, loggedIn: true };
     case REGISTER_USER:
-      return action.payload;
+      return { user: action.payload, loggedIn: false };
     case LOGOUT_USER:
-      return null;
+      return action.payload;
     default:
       return state;
   }
