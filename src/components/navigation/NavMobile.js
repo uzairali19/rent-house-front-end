@@ -45,7 +45,7 @@ const NavMobile = ({ routes }) => {
         {`
           .nav-mobile {
             transform: ${hamburgerOpen
-            ? 'translateX(0%)' : 'translateX(-100%)'};
+          ? 'translateX(0%)' : 'translateX(-100%)'};
             width: 75%;
             height: 90vh;
             position: fixed;

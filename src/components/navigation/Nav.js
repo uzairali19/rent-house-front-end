@@ -43,7 +43,7 @@ const Nav = ({ routes }) => (
       </div>
       <small>
         &copy;
-        {new Date().getFullYear()} 
+        {new Date().getFullYear()}
         Office Space, Inc.
       </small>
     </div>
