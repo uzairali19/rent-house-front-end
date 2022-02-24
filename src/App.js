@@ -9,6 +9,9 @@ import Header from './components/Header';
 import Home from './components/Home/Home';
 import HouseDetail from './components/Home/House-detail';
 import Favorites from './components/Favorites/Favorites';
+import Reservation from './components/Reservation/Reservation';
+import Add from './components/AddDeleteHouse/Add';
+import Delete from './components/AddDeleteHouse/Delete';
 
 const App = () => (
   <BrowserRouter>
@@ -20,6 +23,9 @@ const App = () => (
       <Route path="/home" element={<Home />} />
       <Route path="/house-detail" element={<HouseDetail />} />
       <Route path="/favorites" element={<Favorites />} />
+      <Route path="/reservation" element={<Reservation />} />
+      <Route path="/add" element={<Add />} />
+      <Route path="/delete" element={<Delete />} />
     </Routes>
   </BrowserRouter>
 );
