@@ -17,7 +17,7 @@ const Reservation = () => (
       </p>
       <Link to="/reserve">
         <button type="button" className="button">
-          Unlike
+          Undo
         </button>
       </Link>
     </div>
