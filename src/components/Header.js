@@ -59,11 +59,15 @@ const Header = () => {
             <Link to="/reserve">
               <li>Reservations</li>
             </Link>
-            <Link to="/reserve">
+            <Link to="/favorites">
               <li>My favorites</li>
             </Link>
-            <li>Add house</li>
-            <li>Delete house</li>
+            <Link to="/add">
+              <li>Add house</li>
+            </Link>
+            <Link to="/delete">
+              <li>Delete house</li>
+            </Link>
           </ul>
         </div>
       </nav>
