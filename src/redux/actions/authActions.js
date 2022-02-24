@@ -21,10 +21,11 @@ export const loginUser = (user) => async (dispatch) => {
   }
 };
 
-export const logoutUser = () => async (dispatch) => {
+export const logoutUser = (user) => async (dispatch) => {
   await api.logoutUser();
+  user.loggedIn = false;
   try {
-    const action = { type: LOGOUT_USER };
+    const action = { type: LOGOUT_USER, payload: user };
     dispatch(action);
   } catch (error) {
     console.log(error);
