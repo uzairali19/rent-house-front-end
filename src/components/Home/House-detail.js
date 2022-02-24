@@ -53,6 +53,11 @@ const HouseDetail = () => (
           Add to favorite
         </button>
       </Link>
+      <Link to="/#">
+        <button type="button" className="button">
+          Delete
+        </button>
+      </Link>
       <Link to="/home">
         <button type="button" className="button">
           Close
