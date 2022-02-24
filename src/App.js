@@ -11,13 +11,13 @@ import HouseDetail from './components/Home/House-detail';
 
 const App = () => (
   <BrowserRouter>
-  <Header />
-  <Routes>
+    <Header />
+    <Routes>
     <Route path="/" element={<Login />} />
-    <Route path="sign-in" element={<Login />} />
-    <Route path="sign-up" element={<SignUp />} />
-    <Route path="/home" element={<Home />} />
-    <Route path="/house-detail" element={<HouseDetail />} />
+      <Route path="sign-in" element={<Login />} />
+      <Route path="sign-up" element={<SignUp />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/house-detail" element={<HouseDetail />} />
   </Routes>
 </BrowserRouter>
 );
