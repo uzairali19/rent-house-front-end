@@ -6,6 +6,8 @@ import Header from '../Header';
 const houseLogo = require('./cool.jpg');
 const houseLogo2 = require('./warm.png');
 const houseLogo3 = require('./house.jpeg');
+const houseLogo4 = require('./home.jpeg');
+const houseLogo5 = require('./download.jpeg');
 
 const Home = () => (
   <div>
@@ -15,35 +17,47 @@ const Home = () => (
       <h2>Kindly select a house for reservation</h2>
     </div>
     <div className="row">
-      <div className="item">
-        <img src={houseLogo} alt="House view" />
-        <h5>House #1</h5>
-        <p>Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available</p>
-        <Link to="/house-detail">
-          <button type="button" className="button">
-            <span>See house</span>
-          </button>
-        </Link>
+      <div className="col-sm-6">
+        <div className="card">
+          <img src={houseLogo} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Woodlands</h5>
+            <p className="card-text">Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available</p>
+            <a href="/house-detail" className="btn btn-primary">See house</a>
+          </div>
+        </div>
       </div>
-      <div className="item">
-        <img src={houseLogo2} alt="House view" />
-        <h5>House #2</h5>
-        <p>Some short description or could be removed.</p>
-        <Link to="/house-detail">
-          <button type="button" className="button">
-            See house
-          </button>
-        </Link>
+      <div className="col-sm-6">
+        <div className="card">
+          <img src={houseLogo} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Ivy Cottage</h5>
+            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="/house-detail" className="btn btn-primary">See house</a>
+          </div>
+        </div>
       </div>
-      <div className="item">
-        <img src={houseLogo3} alt="House view" />
-        <h5>House #3</h5>
-        <p>Some short description or could be removed.</p>
-        <Link to="/house-detail">
-          <button type="button" className="button">
-            See house
-          </button>
-        </Link>
+    </div>
+    <div className="row">
+      <div className="col-sm-6">
+        <div className="card">
+          <img src={houseLogo3} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Hillside</h5>
+            <p className="card-text">Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available</p>
+            <a href="/house-detail" className="btn btn-primary">See house</a>
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-6">
+        <div className="card">
+          <img src={houseLogo4} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Sunyside</h5>
+            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="/house-detail" className="btn btn-primary">See house</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
