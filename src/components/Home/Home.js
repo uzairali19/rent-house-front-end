@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import Header from '../Header';
 
 const houseLogo = require('./cool.jpg');
 const houseLogo2 = require('./warm.png');
@@ -9,6 +10,7 @@ const houseLogo3 = require('./house.jpeg');
 const Home = () => (
 
   <div>
+    <Header />
     <div className="main">
       <h1>Homely Rentals</h1>
       <h2>Kindly select a house for reservation</h2>

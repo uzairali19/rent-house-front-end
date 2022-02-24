@@ -23,6 +23,14 @@ const Header = () => {
             </ul>
           </div>
         </div>
+        <div>
+          <ul>
+            <li>Reservations</li>
+            <li>My favorites</li>
+            <li>Add house</li>
+            <li>Delete house</li>
+          </ul>
+        </div>
       </nav>
     </>
   );
