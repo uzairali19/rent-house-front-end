@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #1c8ef9 !important;
+  background: #ccc !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;
@@ -34,7 +34,7 @@ html,
 }
 
 .navbar-light {
-  background-color: #fff;
+  background-color: #dcdcdc;
 }
 
 .auth-wrapper {
