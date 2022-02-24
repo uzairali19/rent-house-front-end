@@ -1,14 +1,14 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { logoutUser } from '../redux/actions/authActions';
+import './Header.css';
 
 const Header = () => {
   const user = useSelector((state) => state.userReducer);
   const dispatch = useDispatch();
 
   const handleLogout = () => {
-    dispatch(logoutUser(user));
+    // dispatch(logoutUser(user));
 
     const data = JSON.parse(localStorage.getItem('token'));
 
@@ -30,9 +30,9 @@ const Header = () => {
             <ul className="navbar-nav ml-auto">
               {user.loggedIn ? (
                 <li className="nav-item">
-                  <Link className="nav-link" to="/" onClick={handleLogout}>
+                  {/* <Link className="nav-link" to="/" onClick={handleLogout}>
                     Logout
-                  </Link>
+                  </Link> */}
                 </li>
               ) : (
                 <>
@@ -50,6 +50,21 @@ const Header = () => {
               )}
             </ul>
           </div>
+        </div>
+        <div>
+          <ul>
+            <Link to="/home">
+              <li>Home </li>
+            </Link>
+            <Link to="/reserve">
+              <li>Reservations</li>
+            </Link>
+            <Link to="/reserve">
+              <li>My favorites</li>
+            </Link>
+            <li>Add house</li>
+            <li>Delete house</li>
+          </ul>
         </div>
       </nav>
     </>

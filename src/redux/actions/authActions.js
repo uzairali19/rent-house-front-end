@@ -7,7 +7,7 @@ export const signUp = (user) => async (dispatch) => {
     const action = { type: REGISTER_USER, payload: data };
     dispatch(action);
   } catch (err) {
-    console.log(err.message);
+    // console.log(err.message);
   }
 };
 
@@ -17,7 +17,7 @@ export const loginUser = (user) => async (dispatch) => {
     const action = { type: LOGIN_USER, payload: data };
     dispatch(action);
   } catch (error) {
-    console.log(error.message);
+    // console.log(error.message);
   }
 };
 
@@ -28,6 +28,6 @@ export const logoutUser = (user) => async (dispatch) => {
     const action = { type: LOGOUT_USER, payload: user };
     dispatch(action);
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
