@@ -4,12 +4,12 @@ import { useSelector, useDispatch } from 'react-redux';
 // import { loadCurrentUser, logout } from '../redux/auth';
 
 const NavPanel = () => {
-  // const isAuthenticated = useSelector(loadCurrentUser);
+ 
   const dispatch = useDispatch();
 
   const handleLogout = () => {
     localStorage.clear();
-    // dispatch(logout);
+    
   };
 
   const links = [
