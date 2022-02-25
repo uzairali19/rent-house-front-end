@@ -1,9 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-// import { loadCurrentUser, logout } from '../redux/auth';
 
-const NavPanel = () => {
 
   const links = [
     {
