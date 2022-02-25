@@ -26,7 +26,8 @@
     "implicit-arrow-linebreak": "off",
     "react/jsx-curly-newline": "off",
     "no-param-reassign": "off",
-    "jsx-a11y/label-has-associated-control": "off"
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/jsx-key": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
 }

@@ -30,9 +30,9 @@ const Header = () => {
             <ul className="navbar-nav ml-auto">
               {user.loggedIn ? (
                 <li className="nav-item">
-                  {/* <Link className="nav-link" to="/" onClick={handleLogout}>
+                  <Link className="nav-link" to="/" onClick={handleLogout}>
                     Logout
-                  </Link> */}
+                  </Link>
                 </li>
               ) : (
                 <>
