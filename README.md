@@ -3,7 +3,7 @@
 ## The Front-end for Final Capstone Project
 
 - This app is a Front-end side of final capstone project. You can find the Back-end app [here](https://github.com/Kossi-stack/rent-house-back-end).
-- Direct link to our [Kanban board](https://github.com/Kossi-stack/rent-house-back-end/projects/1) for whole capstone project
+- Direct link to our [Kanban board](https://github.com/Kossi-stack/rent-house-back-end/projects/1) for the whole capstone project
 
 > This is a web app whereby we have different types of houses that allows a user to reserve a house. Also, users can add a house to a favorite list. There is the possibility to add and delete houses for registered users.
 
