@@ -1,0 +1,54 @@
+.house {
+  align-self: center;
+  margin-left: 3rem;
+  width: 100%;
+}
+
+.img1 {
+  border-radius: 5px;
+  box-shadow: 0 1px 8px #e0e0e0;
+  height: 100%;
+  width: 93%;
+  align-self: center;
+  margin-bottom: 25px;
+  margin-top: 103px;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span::after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}

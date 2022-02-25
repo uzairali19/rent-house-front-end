@@ -1,0 +1,37 @@
+.main {
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.main h1 {
+  color: #fff;
+  font-size: 7vw;
+  margin-top: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main h2 {
+  color: #030;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 60%;
+  align-self: center;
+}
