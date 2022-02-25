@@ -6,20 +6,22 @@ import './Reservation.css';
 const houseLogo = require('./cool.jpg');
 
 const Reservation = () => (
-  <div>
-    <Header />
-    <div className="house">
-      <img className="img1" src={houseLogo} alt="House view" />
-      <h5>House #</h5>
-      <p>
-        Spacious 2 bedroom, 1 bathroom apartment in Lakeview,available. Call
-        John 336-554
-      </p>
-      <Link to="/reserve">
-        <button type="button" className="button">
-          Undo
-        </button>
-      </Link>
+  <div className="container">
+    <div className="row">
+      <div className="col">
+        <div className="card">
+          <img src="..." className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up th
+            </p>
+            <a href="#" className="btn btn-primary">
+              Go somewhere
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 );

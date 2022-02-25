@@ -8,8 +8,8 @@ import {
 } from '../types';
 import * as api from '../../api/index';
 
-export const getHouses = () => async (dispatch) => {
-  const data = await api.getHouses();
+export const getHouses = (user) => async (dispatch) => {
+  const data = await api.getHouses(user);
   try {
     const action = { type: GET_HOUSES, payload: data };
     dispatch(action);

@@ -81,3 +81,7 @@ html,
 .forgot-password a {
   color: #167bff;
 }
+
+.max-card {
+  width: 300px;
+}
