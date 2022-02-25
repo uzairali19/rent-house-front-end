@@ -1,4 +1,4 @@
-# The `House rent app` on React JS
+# RENT A HOUSE
 
 ## The Front-end for Final Capstone Project
 
