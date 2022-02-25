@@ -77,7 +77,7 @@ export const getReservations = async () => {
   await axios.get('http://localhost:3000/api/v1/reservations');
 };
 
-export const postReservation = async (reserve) => {
+export const createReservation = async (reserve) => {
   await axios.get('http://localhost:3000/api/v1/reservations', reserve);
 };
 

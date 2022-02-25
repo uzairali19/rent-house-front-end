@@ -1,4 +1,4 @@
-import { GET_HOUSES, LOGIN_USER, LOGOUT_USER, REGISTER_USER } from '../types';
+import { LOGIN_USER, LOGOUT_USER, REGISTER_USER } from '../types';
 import * as api from '../../api/index';
 
 export const signUp = (user) => async (dispatch) => {
@@ -29,15 +29,5 @@ export const logoutUser = (user) => async (dispatch) => {
     dispatch(action);
   } catch (error) {
     console.log(error);
-  }
-};
-
-export const getHouses = () => async (dispatch) => {
-  const data = await api.getHouses();
-  try {
-    const action = { type: GET_HOUSES, payload: data };
-    dispatch(action);
-  } catch (err) {
-    console.log(err);
   }
 };
