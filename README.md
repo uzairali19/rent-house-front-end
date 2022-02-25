@@ -12,7 +12,8 @@
 - React JS
 - Node JS
 - Redux
-- CSS/Bootstrap
+- CSS
+- Bootstrap
 
 ## Preparation
 
