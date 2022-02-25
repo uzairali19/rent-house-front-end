@@ -1,4 +1,11 @@
 export const LOGIN_USER = 'LOGIN_USER';
 export const REGISTER_USER = 'REGISTER_USER';
 export const LOGOUT_USER = 'LOGOUT_USER';
+
 export const GET_HOUSES = 'GET_HOUSES';
+export const POST_HOUSES = 'POST_HOUSES';
+export const DELETE_HOUSES = 'DELETE_HOUSES';
+
+export const GET_RESERVATION = 'GET_RESERVATION';
+export const POST_RESERVATION = 'POST_RESERVATION';
+export const DELETE_RESERVATION = 'DELETE_RESERVATION';

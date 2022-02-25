@@ -64,3 +64,23 @@ export const logoutUser = async () => {
 export const getHouses = async () => {
   await axios.get('http://localhost:3000/api/v1/houses');
 };
+
+export const createHouse = async (house) => {
+  await axios.post('http://localhost:3000/api/v1/houses', house);
+};
+
+export const deleteHouse = async (houseId) => {
+  await axios.delete(`http://localhost:3000/api/v1/houses/${houseId}`);
+};
+
+export const getReservations = async () => {
+  await axios.get('http://localhost:3000/api/v1/reservations');
+};
+
+export const postReservation = async (reserve) => {
+  await axios.get('http://localhost:3000/api/v1/reservations', reserve);
+};
+
+export const deleteReservation = async (reserveId) => {
+  await axios.get(`http://localhost:3000/api/v1/reservations/${reserveId}`);
+};
