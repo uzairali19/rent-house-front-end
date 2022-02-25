@@ -2,6 +2,71 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 130px;
   margin-left: 50px;
+  padding: 0;
+}
+
+.add-form input {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-form textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.house-input {
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 15px 16px;
+  box-sizing: border-box;
+  width: 400px;
+}
+
+.house-desc {
+  color: #172b4d;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 15px 38px 15px 16px;
+  font-family: inherit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 400px;
+}
+
+.form-submit-btn {
+  background-color: #091d47; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.form-submit-btn:hover {
+  background-color: #3e40df;
+  color: rgb(255, 255, 255);
+}
+
+.form-header {
+  margin-bottom: 30px;
 }
