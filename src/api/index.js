@@ -60,3 +60,7 @@ export const loginUser = async (user) => {
 export const logoutUser = async () => {
   await axios.delete('http://localhost:3000/users/signout');
 };
+
+export const getHouses = async () => {
+  await axios.get('http://localhost:3000/api/v1/houses');
+};
